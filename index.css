@@ -34,6 +34,7 @@
   background-color: rgba(255, 153, 0, 0.918);
   border-radius: 2vw;
   padding: 2vw;
+  font-size: 1vw;
   font-family: "verdana", monospace;
   color: white;
 }
@@ -45,6 +46,20 @@
   transform: translate(-50%, -50%);
   border-radius: 5px;
   padding: 5px;
+}
+
+.left {
+  position:absolute; 
+  top:140vw; 
+  left:2vw; 
+  width:70vw;
+}
+
+.right {
+  position:absolute; 
+  top:171vw; 
+  right:2vw; 
+  width:70vw;
 }
 
 .centered {
