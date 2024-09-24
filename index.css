@@ -1,6 +1,7 @@
 .navbar {
     background-color: rgba(255, 153, 0, 0.918);
     border-radius: 1vw;
+    font-size:1vw;
     width: 99%;
     top: 0;
     position: fixed;
@@ -31,8 +32,8 @@
 
 .txtbox{
   background-color: rgba(255, 153, 0, 0.918);
-  border-radius: 25px;
-  padding: 20px;
+  border-radius: 2vw;
+  padding: 2vw;
   font-family: "verdana", monospace;
   color: white;
 }
@@ -40,7 +41,7 @@
 .topleft {
   position: absolute;
   top: 50%;
-  left: 4%;
+  left: 3%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
   padding: 5px;
@@ -48,12 +49,17 @@
 
 .centered {
   position: absolute;
-  top: 30%;
+  top: 20vw;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "monaco", monospace;
   font-size: 1vw;
   line-height: 2vw;
+}
+
+.favicon{
+  height: 3vw; 
+  width: 3vw;
 }
 
 body {
