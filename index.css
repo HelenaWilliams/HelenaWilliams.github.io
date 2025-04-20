@@ -34,9 +34,10 @@
   background-color: rgba(255, 153, 0, 0.918);
   border-radius: 2vw;
   padding: 2vw;
-  font-size: 1vw;
-  font-family: "verdana", monospace;
   color: white;
+  font-family: "monaco", monospace;
+  font-size: 1vw;
+  line-height: 2vw;
 }
 
 .topleft {
@@ -67,9 +68,6 @@
   top: 20vw;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "monaco", monospace;
-  font-size: 1vw;
-  line-height: 2vw;
 }
 
 .favicon{

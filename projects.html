@@ -23,5 +23,15 @@
         <h2>iD Tech Curricula</h2>
         <p>At iD Tech, instructors are expected to maintain a focus on teaching through project development. Since not every student is prepared to take on a top-level project (let alone come up with an idea for one), I have created my own library of demo projects that I can guide students in creating. These range from simplistic games to much more complex challenges.</p>
     </div>
+    <div class="txtbox" style="position: absolute; top:60vw; width:40%">
+        <h2>Pong</h2>
+        <p>Pong serves as an excellent introduction to Pygame for students who like math. With some tinkering, this game is able to provide introductions to a number of subjects, such as:</p>
+        <ul style="font-size:15px">
+            <li style="line-height:1.5"><i style="font-weight: 900; font-size: 20px;">Physics:</i> How do we make a ball move with realistic elastic collisions in 2D? Ricocheting off of walls and paddles is an essential part of Pong, and may not be immediately intuitive to novice programmers. I typically break down the problem into two one-dimensional number lines, using conditionals to switch the ball's trajectory when it hits a wall. More advanced students may be capable of discussing trigonometry and precise angles, but it's not necessary.</li><br>
+            <li style="line-height:1.5"><i style="font-weight: 900; font-size: 20px;">Cartesian Plane:</i> How do we detect essential boundaries in the game--for instance, the sides of a paddle, or the goal zone? Younger students may not have prior knowledge of the coordinate plane, and Pong allows me to show them how coordinates change in an intuitive manner. I also use this as a chance to explain inequalities, through demarcating regions of the display ("bounce areas," "score areas," etc.) that need different behaviors.</li><br>
+            <li style="line-height:1.5"><i style="font-weight: 900; font-size: 20px;">Heuristics</i> How do we make an AI that is engaging to play against? We can easily draw a second paddle, but making it capable of responding in an "intelligent" manner is much more difficult. I start this lesson with an "easy mode": a paddle that drifts up and down, without accounting for the movement of the ball. From there, students learn to develop towards a "medium mode" paddle that tries to follow the y-coordinate of the ball, and even a "hard mode" paddle that tries to calculate the ultimate trajectory of the ball.</li><br>
+            <li style="line-height:1.5"><i style="font-weight: 900; font-size: 20px;">Code Structure</i> How do we write legible and functioning code? Pong doesn't necessitate object-oriented programming, or multiple code files, but different parts of the game are best divided into separate functions, all of which are called from a main "game loop." I use this to teach about passing parameters, calling functions, variable scope, and other essential concepts for designing more modular code.</li><br>
+        </ul>
+    </div>
 </body>
 </html>
